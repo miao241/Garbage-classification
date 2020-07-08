@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/search/search",
+    "pages/kindInfo/kindInfo",
+    "pages/camera/camera"
+  ],
+  "window": {
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3CB371",
+    "navigationBarTitleText": "垃圾分类",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "custom":true,
+    "color": "#515151",
+    "selectedColor": "#3cb371",
+    "borderStyle": "white",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "iconPath": "/images/分类0.png",
+        "selectedIconPath": "/images/分类1.png",
+        "text": "分类"
+      },
+      
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "/images/test0.png",
+        "selectedIconPath": "/images/test1.png",
+        "text": "搜索"
+      }
+    ]
+  },
+  
+  "sitemapLocation": "sitemap.json"
+}
