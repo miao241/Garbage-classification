@@ -344,7 +344,7 @@ Page({
 
   //获取百度taken
   getBaiduTaken: function () {
-    const tokenUrl = `https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=CCeMGXhoY9C0idAL9eErWZ3u&client_secret=rUqziRASkyRgzU3X0xj1GVtjnpW8xZhZ`;
+    const tokenUrl = `https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=api key&client_secret=secret key`;
 
     var that = this;
     wx.request({
